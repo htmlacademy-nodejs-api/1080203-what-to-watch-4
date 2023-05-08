@@ -1,3 +1,5 @@
+import { User } from './user.type';
+
 export type Film = {
   name: string;
   description: string;
@@ -11,7 +13,7 @@ export type Film = {
   director: string;
   duration: number;
   commentsCount: number;
-  user: string;
+  user: User;
   poster: string;
   background: string;
   backgroundColor: string;

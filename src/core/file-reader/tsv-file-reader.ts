@@ -46,11 +46,11 @@ export default class TSVFileReader implements FileReaderInterface {
         rating: +rating,
         previewVideo,
         video,
-        actors: actors.split(';'),
+        actors: JSON.parse(actors),
         director,
         duration: +duration,
         commentsCount: +commentsCount,
-        user,
+        user: JSON.parse(user),
         poster,
         background,
         backgroundColor
