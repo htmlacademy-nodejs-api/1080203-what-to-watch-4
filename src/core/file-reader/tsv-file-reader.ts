@@ -1,7 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { FileReaderInterface } from './file-reader.interface.js';
-import { Offer } from '../../types/offer.type.js';
-import { OfferType } from '../../types/offer-type.enum.js';
+import { Film } from '../../types/film.type.js';
 
 export default class TSVFileReader implements FileReaderInterface {
   private rawData = '';
@@ -12,7 +11,7 @@ export default class TSVFileReader implements FileReaderInterface {
     this.rawData = readFileSync(this.filename, { encoding: 'utf8' });
   }
 
-  public toArray(): Offer[] {
+  public toArray(): Film[] {
     if (!this.rawData) {
       return [];
     }
@@ -21,16 +20,40 @@ export default class TSVFileReader implements FileReaderInterface {
       .split('\n')
       .filter((row) => row.trim() !== '')
       .map((line) => line.split('\t'))
-      .map(([title, description, createdDate, image, type, price, categories, firstname, lastname, email, avatarPath]) => ({
-        title,
+      .map(([
+        name,
         description,
-        postDate: new Date(createdDate),
-        image,
-        type: OfferType[type as 'Buy' | 'Sell'],
-        categories: categories.split(';')
-          .map((name) => ({name})),
-        price: Number.parseInt(price, 10),
-        user: {email, firstname, lastname, avatarPath},
+        postDate,
+        genre,
+        release,
+        rating,
+        previewVideo,
+        video,
+        actors,
+        director,
+        duration,
+        commentsCount,
+        user,
+        poster,
+        background,
+        backgroundColor
+      ]) => ({
+        name,
+        description,
+        postDate,
+        genre,
+        release,
+        rating: +rating,
+        previewVideo,
+        video,
+        actors: actors.split(';'),
+        director,
+        duration: +duration,
+        commentsCount: +commentsCount,
+        user,
+        poster,
+        background,
+        backgroundColor
       }));
   }
 }
