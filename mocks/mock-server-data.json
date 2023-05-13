@@ -1,0 +1,167 @@
+{
+  "api": {
+    "names": [
+      "Фильм 1",
+      "Фильм 2",
+      "Фильм 3",
+      "Фильм 4",
+      "Фильм 5",
+      "Фильм 6",
+      "Фильм 7",
+      "Фильм 8"
+    ],
+    "descriptions": [
+      "Описание фильма 1",
+      "Описание фильма 2",
+      "Описание фильма 3",
+      "Описание фильма 4",
+      "Описание фильма 5",
+      "Описание фильма 6",
+      "Описание фильма 7",
+      "Описание фильма 8"
+    ],
+    "postDates": [
+      "01.04.2023",
+      "02.04.2023",
+      "03.04.2023",
+      "04.04.2023",
+      "05.04.2023",
+      "06.04.2023",
+      "07.04.2023",
+      "08.04.2023"
+    ],
+    "genres": [
+      "comedy",
+      "crime",
+      "documentary",
+      "drama",
+      "horror",
+      "family",
+      "romance",
+      "scifi"
+    ],
+    "releases": [
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997",
+      "1998"
+    ],
+    "ratings": [1, 2, 3, 4, 5, 6, 7, 8],
+    "previewVideos": [
+      "http://film.tv/preview-1.mp4",
+      "http://film.tv/preview-2.mp4",
+      "http://film.tv/preview-3.mp4",
+      "http://film.tv/preview-4.mp4",
+      "http://film.tv/preview-5.mp4",
+      "http://film.tv/preview-6.mp4",
+      "http://film.tv/preview-7.mp4",
+      "http://film.tv/preview-8.mp4"
+    ],
+    "videos": [
+      "http://film.tv/film-1.mp4",
+      "http://film.tv/film-2.mp4",
+      "http://film.tv/film-3.mp4",
+      "http://film.tv/film-4.mp4",
+      "http://film.tv/film-5.mp4",
+      "http://film.tv/film-6.mp4",
+      "http://film.tv/film-7.mp4",
+      "http://film.tv/film-8.mp4"
+    ],
+    "actors": [
+      ["Актёр 1-1", "Актёр 1-2", "Актёр 1-3"],
+      ["Актёр 2-1", "Актёр 2-2", "Актёр 2-3"],
+      ["Актёр 3-1", "Актёр 3-2", "Актёр 3-3"],
+      ["Актёр 4-1", "Актёр 4-2", "Актёр 4-3"],
+      ["Актёр 5-1", "Актёр 5-2", "Актёр 5-3"],
+      ["Актёр 6-1", "Актёр 6-2", "Актёр 6-3"],
+      ["Актёр 7-1", "Актёр 7-2", "Актёр 7-3"],
+      ["Актёр 8-1", "Актёр 8-2", "Актёр 8-3"]
+    ],
+    "directors": [
+      "Режиссёр 1",
+      "Режиссёр 2",
+      "Режиссёр 3",
+      "Режиссёр 4",
+      "Режиссёр 5",
+      "Режиссёр 6",
+      "Режиссёр 7",
+      "Режиссёр 8"
+    ],
+    "durations": [120, 134, 100, 97, 66, 98, 78, 144],
+    "commentsCounts": [33, 55, 17, 78, 56, 32, 14, 29],
+    "userNames": [
+      "Юзер 1",
+      "Юзер 2",
+      "Юзер 3",
+      "Юзер 4",
+      "Юзер 5",
+      "Юзер 6",
+      "Юзер 7",
+      "Юзер 8"
+    ],
+    "userEmails": [
+      "user-1@mail.com",
+      "user-2@mail.com",
+      "user-3@mail.com",
+      "user-4@mail.com",
+      "user-5@mail.com",
+      "user-6@mail.com",
+      "user-7@mail.com",
+      "user-8@mail.com"
+    ],
+    "userAvatars": [
+      "http://film.tv/user-avatar-1.png",
+      "http://film.tv/user-avatar-2.png",
+      "http://film.tv/user-avatar-3.png",
+      "http://film.tv/user-avatar-4.png",
+      "http://film.tv/user-avatar-5.png",
+      "http://film.tv/user-avatar-6.png",
+      "http://film.tv/user-avatar-7.png",
+      "http://film.tv/user-avatar-8.png"
+    ],
+    "userPasswords": [
+      "1234qwer",
+      "2234qwer",
+      "3234qwer",
+      "4234qwer",
+      "5234qwer",
+      "6234qwer",
+      "7234qwer",
+      "8234qwer"
+    ],
+    "posters": [
+      "http://film.tv/poster-1.png",
+      "http://film.tv/poster-2.png",
+      "http://film.tv/poster-3.png",
+      "http://film.tv/poster-4.png",
+      "http://film.tv/poster-5.png",
+      "http://film.tv/poster-6.png",
+      "http://film.tv/poster-7.png",
+      "http://film.tv/poster-8.png"
+    ],
+    "backgrounds": [
+      "http://film.tv/background-1.png",
+      "http://film.tv/background-2.png",
+      "http://film.tv/background-3.png",
+      "http://film.tv/background-4.png",
+      "http://film.tv/background-5.png",
+      "http://film.tv/background-6.png",
+      "http://film.tv/background-7.png",
+      "http://film.tv/background-8.png"
+    ],
+    "backgroundColors": [
+      "tomato",
+      "salmon",
+      "pink",
+      "plum",
+      "orange",
+      "grey",
+      "yellow",
+      "green"
+    ]
+  }
+}
